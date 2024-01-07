@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+  /* selected font 300,400,700,900 all bold */
+/* Universal Selector */
+*{
+    margin: 0%;
+
+}
+/* Header Style Starts */
+header{
+    width:100%;
+    height:90vh;
+   
+}
+.banner-content{
+    width:85%;
+    height:80vh;
+    margin:20px auto 20px;
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    color:darkturquoise;
+   
+   
+
+}
+.banner-greeting{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 150px ;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 10px black;
+
+}
+
+
+.banner-title{
+    font-family: 'Merriweather', serif;
+    font-size:45px;
+    font-weight: 900;
+    text-shadow: 10px 10px 20px black;
+}
+/* 65%offer part Style Starts */
+.offer-text{
+text-align: center;
+}
+.offer-text>h1{
+    color:red;
+    font-size: 45px;
+}
+.offer-text>p{
+    font-size: 10px;
+    color:red;
+}
+.offer-text>h3{
+    font-weight: 900;
+    font-size: 30px;
+}
+.offer-sixty{
+    width:50%;
+    height:100vh;
+    margin:20px auto 20px;
+  
+  
+   background-image: url("../images/New\ Year\ Photo.png");
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+.welcome-party{
+    width:85%;
+    height:80vh;
+    margin:20px auto 20px;
+  
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding-right:20px;
+    font-family:'Courier New', Courier, monospace;
+
+    
+}
+.welcome-party>img{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+}
+.welcome-text{
+    color:white;
+    width:55%;
+    padding:50px auto auto 50px;
+}
+.welcome-text>h1{
+    font-size:45px;
+    font-weight: 900;
+   
+   
+}
