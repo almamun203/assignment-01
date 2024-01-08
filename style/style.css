@@ -7,7 +7,7 @@
    
 
 }
-header,article,main,section,footer{
+header,article,main,section{
     Width:80%;
     margin:20px auto 20px;
 }
@@ -214,4 +214,28 @@ text-align: center;
 .bonus-left>p,.bonus-right>p{
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 5px 5px 5px red;
+}
+/* Style of fifty % offer section */
+.fifty-section{
+margin-top:100px;
+height:100vh;
+text-align: center;
+}
+.fifty-text{
+font-family:  Merriweather;
+height: 40vh;
+}
+.fifty-text>h1{
+    font-size:50px;
+}
+.fifty-text span{
+color:red;
+
+}
+.fifty-banner{
+height:60vh;
+background-image:url("../images/Rectangle\ 2.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: bottom;
 }
