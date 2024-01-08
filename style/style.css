@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-  /* selected font 300,400,700,900 all bold */
+  /* selected font Merriweather,serif;weight 300,400,700,900 all bold */
 /* Universal Selector */
 *{
     margin: 0%;
@@ -217,13 +217,14 @@ text-align: center;
 }
 /* Style of fifty % offer section */
 .fifty-section{
-margin-top:100px;
+margin-top:80px;
 height:100vh;
 text-align: center;
 }
 .fifty-text{
 font-family:  Merriweather;
-height: 40vh;
+height: 30vh;
+margin-bottom: 20px;
 }
 .fifty-text>h1{
     font-size:50px;
@@ -234,8 +235,37 @@ color:red;
 }
 .fifty-banner{
 height:60vh;
-background-image:url("../images/Rectangle\ 2.png");
+background:url("../images/Group\ 44.png") center  no-repeat,url("../images/Group\ 75.png") left bottom no-repeat,url("../images/Rectangle\ 1.png") right top no-repeat,url("../images/Rectangle\ 2.png") bottom no-repeat;
 background-size: contain;
-background-repeat: no-repeat;
-background-position: bottom;
+}
+/* Style of Products ShowCase Starts */
+.product-showcase{
+    height:130vh;
+    width:80%;
+
+}
+.product-heading{
+    display:block;
+    font-family: Merriweather;
+}
+.product-heading>h6{
+    font-size:16px;
+    color:red;
+}
+.product-heading>h2{
+    font-size:30px;
+}
+.product-heading>p{
+    font-size: 12px;
+    color:rgb(64, 57, 57);
+}
+.product-grid{
+   display: block;
+}
+
+.grid-one{
+    display:flex;
+}
+.grid-two{
+    display:flex;
 }
