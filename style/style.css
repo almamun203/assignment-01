@@ -27,7 +27,7 @@ header{
     border:none;
     border-radius: 5px;
     text-align: center;
-    color:white;
+    color:chartreuse;
 
    
    
@@ -121,7 +121,7 @@ text-align: center;
     background:none;
     margin-top: 15px;
 }
-.welcome-text>button>a{
+.welcome-text>button{
     
     color:white;
    
@@ -133,7 +133,7 @@ text-align: center;
    
     height:50vh;
    
-    background-color: rgb(245, 219, 223);
+    background-image: linear-gradient(to bottom, rgb(242, 212, 217), rgb(252, 250, 250));
     border:none;
     border-radius:10px;
     text-align: center;
